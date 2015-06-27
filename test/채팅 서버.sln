@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "채팅 서버", "F:\채팅 서버\채팅 서버\채팅 서버.csproj", "{9385D1E4-038E-4EF4-9667-CC4681154B93}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "채팅 서버", "채팅 서버\채팅 서버.csproj", "{9385D1E4-038E-4EF4-9667-CC4681154B93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
