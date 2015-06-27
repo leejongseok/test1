@@ -30,7 +30,7 @@ namespace 채팅_서버
             SocketAsyncEventArgs sockasync = new SocketAsyncEventArgs();
             SocketAsyncEventArgs sockasync1 = new SocketAsyncEventArgs();
             sockasync.Completed += new EventHandler<SocketAsyncEventArgs>(SocketAccept);
-
+          
             sever.AcceptAsync(sockasync);
 
             Connect();
@@ -104,7 +104,7 @@ namespace 채팅_서버
                         sendargs.SetBuffer(BitConverter.GetBytes(Packet.DataLenght1), 0, 4);
                         sendargs.Completed += new EventHandler<SocketAsyncEventArgs>(SendEvent);
                         sendargs.UserToken = Packet;
-
+                        sendargs.UserToken = Packet;
                         m_client[i].SendAsync(sendargs);
                     }          
                 }
